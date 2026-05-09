@@ -7,7 +7,6 @@ The project uses the Random Forest Regressor algorithm for accurate price predic
 
 Project Structure
 Car-Price-Prediction/
-│
 ├── README.md 
 ├── car data.csv 
 ├── car.py
