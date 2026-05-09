@@ -1,91 +1,152 @@
-# Car-Price-Prediction-with-Machine-Learning
-Car Price Prediction Using Machine Learning
+# Car Price Prediction Using Machine Learning
 
-This project is a Machine Learning-based web application that predicts the selling price of used cars based on various features such as present price, fuel type, kilometers driven, transmission type, and ownership details.
+A Machine Learning project that predicts the selling price of used cars using historical car data and regression algorithms. This project is developed using Python, Pandas, NumPy, Scikit-learn, and Flask.
 
-The project uses the Random Forest Regressor algorithm for accurate price prediction and is built using Python, Scikit-learn, Pandas, and Flask.
+---
 
-Project Structure
+# Project Structure
+
+```text
 Car-Price-Prediction/
-├── README.md 
-├── car data.csv 
+│
+├── README.md
+├── car data.csv
 ├── car.py
 ├── car_price_model.pkl
 └── requirements.txt
-Dataset
+```
+
+---
+
+# Dataset
 
 Dataset used in this project:
 
-Car Price Prediction (Used Cars) Dataset from Kaggle
+Used Cars Dataset from Kaggle
 
-Dataset Link:
+Dataset Link:  
 https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars
 
-Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Flask
-Joblib
-Features
-Data preprocessing
-Feature encoding
-Machine learning model training
-Car price prediction
-Model evaluation
-Model saving using Joblib
-Flask web application
-Machine Learning Algorithm
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Flask
+- Joblib
+- Matplotlib
+- Seaborn
+
+---
+
+# Features
+
+- Data preprocessing
+- Feature encoding
+- Data visualization
+- Machine learning model training
+- Car price prediction
+- Model evaluation
+- Model saving using Joblib
+
+---
+
+# Machine Learning Algorithm
 
 The project uses:
 
-Random Forest Regressor
-Installation
+- Random Forest Regressor
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/Car-Price-Prediction.git
+# Installation
 
-Move into the project directory:
+Install all required libraries:
 
-cd Car-Price-Prediction
-
-Install required libraries:
-
+```bash
 pip install -r requirements.txt
-Run the Application
+```
 
-Run the Flask application:
+---
 
-python app.py
-Model Training
+# Run the Project
 
-The machine learning model is trained using:
+Execute the Python file:
 
-Train-Test Split
-Random Forest Regression
-Feature preprocessing and encoding
-Future Improvements
-Add Streamlit frontend
-Deploy on Heroku or Render
-Add advanced model tuning
-Improve UI design
-Add more datasets
-Output
+```bash
+python car.py
+```
 
-The application predicts the estimated selling price of a used car based on user input features.
+---
 
-Author
+# Requirements
+
+Required Python libraries:
+
+```text
+pandas
+numpy
+scikit-learn
+flask
+joblib
+matplotlib
+seaborn
+```
+
+---
+
+# Sample Output
+
+```text
+Model Performance
+--------------------------
+MAE  : 0.85
+MSE  : 1.42
+RMSE : 1.19
+R2 Score : 0.96
+
+Model Saved Successfully!
+```
+
+---
+
+# Output Visualization
+
+- Actual vs Predicted Price Graph
+- Feature Importance Graph
+- Correlation Heatmap
+
+The model predicts the estimated selling price of used cars with high accuracy.
+
+---
+
+# Future Improvements
+
+- Add Streamlit frontend
+- Deploy project online
+- Improve UI design
+- Hyperparameter tuning
+- Add advanced regression models
+
+---
+
+# Conclusion
+
+This project demonstrates how Machine Learning can be used to predict used car prices accurately using historical data and regression techniques. The project covers the complete Machine Learning workflow including data preprocessing, feature engineering, model training, evaluation, and model saving.
+
+By using the Random Forest Regressor algorithm, the system provides reliable predictions for used car prices and improves understanding of real-world Machine Learning implementation.
+
+---
+
+# Author
 
 Chaitali Kar
 
-License
+---
 
-This project is for educational and learning purposes.
+# License
 
-Conclusion
-
-This project demonstrates how Machine Learning can be used to predict used car prices accurately using historical data and feature analysis. By applying data preprocessing, feature encoding, and the Random Forest Regressor algorithm, the model is able to provide reliable price predictions.
-
-The project also showcases the integration of Machine Learning with a Flask web application, making the prediction system user-friendly and practical for real-world applications. This project helped in understanding the complete Machine Learning workflow including data handling, model training, evaluation, and deployment.
+This project is created for educational and learning purposes.
